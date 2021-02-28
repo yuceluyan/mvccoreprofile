@@ -1,0 +1,7 @@
+- MyLinkedInProfile.Sln visual studio’ da File>Open>Project/Solution diyerek eklenmelidir.
+- Proje için de Startup.cs dosyası ConfigureServices metodu içinde Server adı tanımlanmalıdır.
+- Visual studio için de Package manager console yardmıyla migration işlemleri aşağıdaki komutlar kullanılarak yapılmalıdır.
+	- enable-migrations
+	- add-migration VersionName
+	- update-database
+- Sonrasında uygulama run edilip çalıştırılabilir.
